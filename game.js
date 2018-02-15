@@ -4,7 +4,10 @@ function getRandom(min, max){
 
 document.querySelector(".video_position").src = "video/head.mp4";
 
-document.querySelector(".video_position").setAttribute("loop", "loop");
+document.querySelector(".video_position").setAttribute("loop", "yle");
+
+document.querySelectorAll(".video_position_1")[0].setAttribute('muted','bihsla')
+document.querySelectorAll(".video_position_1")[1].setAttribute('muted','')
 
 var player_point = 0;
 var cpu_point = 0;
